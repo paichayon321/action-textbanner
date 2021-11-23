@@ -2,4 +2,4 @@
 set -e
 #all_args=$@
 #echo "${all_args}" 
-figlet $@
+figlet $@ > banner.txt
